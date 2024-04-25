@@ -1,6 +1,7 @@
 % This demo is used for the paper of tube path planning
 clear;
 close all;
+addpath("src\");
 %% generate 3-D occupancy map
 map3D = occupancyMap3D(0.1);
 pose = [ 0 0 0 1 0 0 0];
