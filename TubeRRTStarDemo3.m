@@ -2,6 +2,7 @@
 clear;
 close all;
 addpath("src\");
+addpath("data\");
 %% generate 3-D occupancy map
 map3D = occupancyMap3D(0.1);
 pose = [ 0 0 0 1 0 0 0];
@@ -22,6 +23,9 @@ for x = 0:1:300
 end
 insertPointCloud(map3D,pose,pointsFloor,maxRange*1.5);
 map3D.FreeThreshold = map3D.OccupiedThreshold;
+
+% or load the .ot file
+% map3D = importOccupancyMap3D("50num14.ot");
 
 xLimMin = 0;
 xLimMax = 240;
