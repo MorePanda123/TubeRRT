@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Link to 
+Type=Link
+URL=file:///home/unionsys/pointcloudTraj_ws/src/pointcloudTraj/Planner/src/sim_planning_demo.cpp
+Icon=text-x-c++src
