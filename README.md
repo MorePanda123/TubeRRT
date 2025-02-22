@@ -15,7 +15,7 @@ Pengda Mao, Shuli Lv, and Quan Quan, "Tube-RRT*: Efficient Homotopic Path Planni
 ## 2. Run in MATLAB
 Run the TubeRRTStarDemo3.m in MATLAB.
 
-## 2. Run in Ubuntu 18.04
+## 3. Run in Ubuntu 18.04
 ```
 cd cpp
 catkin_make
@@ -26,3 +26,6 @@ The source code is released under [GPLv3](https://www.gnu.org/licenses/) license
 
 # Maintaince
 For any technical issues, please contact Pengda Mao (maopengda@buaa.edu.cn) or Quan Quan (qq_buaa@buaa.edu.cn).
+
+# Acknowledgement
+The C++ code of this paper refers to  [PointcloudTraj](https://github.com/HKUST-Aerial-Robotics/pointcloudTraj).
