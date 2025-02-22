@@ -26,7 +26,7 @@ roslaunch grid_path_searcher demo_successRate.launch
 The source code is released under [GPLv3](https://www.gnu.org/licenses/) license.
 
 # Maintaince
-For any technical issues, please contact Pengda Mao (maopengda@buaa.edu.cn) or Quan Quan (qq_buaa@buaa.edu.cn).
+For any technical issues, please contact Pengda Mao(毛鹏达) (maopengda@buaa.edu.cn) or Quan Quan (qq_buaa@buaa.edu.cn).
 
 # Acknowledgement
 The C++ code of this paper refers to  [PointcloudTraj](https://github.com/HKUST-Aerial-Robotics/pointcloudTraj).
