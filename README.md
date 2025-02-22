@@ -9,14 +9,16 @@ Tube-RRT*: Efficient Homotopic Path Planning for Swarm Robotics Passing-Through 
 
 ## 1. Related Paper
 Pengda Mao, Shuli Lv, and Quan Quan, "Tube-RRT*: Efficient Homotopic Path Planning for Swarm Robotics Passing-Through Large-Scale Obstacle Environments," IEEE Robotics and Automation Letters, Vol 10, No 3, 2025.
-[DOI:10.1109/LRA.2025.3531151]([https://ieeexplore.ieee.org/abstract/document/10844529]).
+[DOI:10.1109/LRA.2025.3531151](https://ieeexplore.ieee.org/abstract/document/10844529).
 
 ## 2. Run in MATLAB
 Run the TubeRRTStarDemo3.m in MATLAB.
 
 ## 2. Run in Ubuntu 18.04
 cd cpp
+
 catkin_make
+
 roslaunch grid_path_searcher demo_successRate.launch
 
 # Licence
