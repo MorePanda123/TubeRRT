@@ -1,7 +1,7 @@
 # Tube-RRT*
 Tube-RRT*: Efficient Homotopic Path Planning for Swarm Robotics Passing-Through Large-Scale Obstacle Environments
 
-**Tube-RRT*** is an efficient homotopic pah planning algorithm that builds upon and improves the Rapidly exploring Random Tree (RRT) algorithm. Tube-RRT* is specifically designed to generate homotopic paths for the trajectories in the virtual tube, strategically considering opening volume and tube length to mitigate swarm congestion and ensure agile navigation.
+**Tube-RRT*** is an efficient homotopic pah planning algorithm that builds upon and improves the Rapidly exploring Random Tree (RRT) algorithm. Tube-RRT* is specifically designed to generate homotopic paths for the trajectories in the virtual tube, strategically considering the opening volume and tube length to mitigate swarm congestion and ensure agile navigation.
 
 ![图片](pic/path1.png "homotopic path")
 ![图片](pic/path2.png "homotopic path2")
