@@ -36,26 +36,6 @@ link_libraries(${OMPL_LIBRARY_DIRS})
 
 set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS} -O3 -Wall") # -Wextra -Werror
 
-add_executable( path_plan 
-    src/path_plan.cpp
-    src/graph_searcher.cpp
-    src/corridor_finder.cpp)
-
-target_link_libraries(path_plan
-    ${catkin_LIBRARIES}
-    ${PCL_LIBRARIES} 
-    ${OMPL_LIBRARIES}
-)
-
-add_executable(safe_path_plan
-    src/RRTSafeMargin.cpp
-    src/graph_searcher.cpp
-    src/corridor_finder.cpp)
-
-target_link_libraries(safe_path_plan
-    ${catkin_LIBRARIES}
-    ${PCL_LIBRARIES} 
-    ${OMPL_LIBRARIES})
 
 add_executable(tube_path_plan
     src/tubeRRTStar.cpp
