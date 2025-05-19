@@ -14,7 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
 find_package(Eigen3 REQUIRED)
 find_package(PCL REQUIRED)
 # add your code here: find_package(xxx REQUIRED)
-find_package(ompl REQUIRED)
+# find_package(ompl REQUIRED)
 
 set(Eigen3_INCLUDE_DIRS ${EIGEN3_INCLUDE_DIR})
 
