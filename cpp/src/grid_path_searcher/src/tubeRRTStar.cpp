@@ -15,21 +15,21 @@
 #include <visualization_msgs/MarkerArray.h>
 #include <visualization_msgs/Marker.h>
 
-#include <ompl/config.h>
-#include <ompl/base/StateSpace.h>
-#include <ompl/base/Path.h>
-#include <ompl/base/spaces/RealVectorBounds.h>
-#include <ompl/base/spaces/RealVectorStateSpace.h>
-#include <ompl/base/StateValidityChecker.h>
-#include <ompl/base/OptimizationObjective.h>
-#include <ompl/base/objectives/PathLengthOptimizationObjective.h>
-#include <ompl/base/objectives/MaximizeMinClearanceObjective.h>
-#include <ompl/geometric/planners/rrt/RRTstar.h>
-#include <ompl/geometric/planners/rrt/InformedRRTstar.h>
-#include <ompl/geometric/PathSimplifier.h>
-#include <ompl/geometric/SimpleSetup.h>
+// #include <ompl/config.h>
+// #include <ompl/base/StateSpace.h>
+// #include <ompl/base/Path.h>
+// #include <ompl/base/spaces/RealVectorBounds.h>
+// #include <ompl/base/spaces/RealVectorStateSpace.h>
+// #include <ompl/base/StateValidityChecker.h>
+// #include <ompl/base/OptimizationObjective.h>
+// #include <ompl/base/objectives/PathLengthOptimizationObjective.h>
+// #include <ompl/base/objectives/MaximizeMinClearanceObjective.h>
+// #include <ompl/geometric/planners/rrt/RRTstar.h>
+// #include <ompl/geometric/planners/rrt/InformedRRTstar.h>
+// #include <ompl/geometric/PathSimplifier.h>
+// #include <ompl/geometric/SimpleSetup.h>
 
-#include <ompl/base/objectives/StateCostIntegralObjective.h>
+// #include <ompl/base/objectives/StateCostIntegralObjective.h>
 
 #include "graph_searcher.h"
 #include "backward.hpp"
@@ -39,8 +39,8 @@
 using namespace std;
 using namespace Eigen;
 
-namespace ob = ompl::base;
-namespace og = ompl::geometric;
+// namespace ob = ompl::base;
+// namespace og = ompl::geometric;
 
 namespace backward {
 backward::SignalHandling sh;
