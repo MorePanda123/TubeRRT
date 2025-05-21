@@ -20,6 +20,7 @@ Run the TubeRRTStarDemo3.m in MATLAB.
 ```
 cd cpp
 catkin_make
+source devel/setup.bash
 roslaunch grid_path_searcher demo_successRate.launch
 ```
 # Licence
